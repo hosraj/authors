@@ -6,7 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 
 // import { DEBUG_INFO_ENABLED } from 'app/app.constants';
-import routes from './app.routes';
+import {routes} from './app.routes';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { AppPageTitleStrategy } from './app-page-title-strategy';
 
