@@ -12,10 +12,11 @@ import locale from '@angular/common/locales/en';
 @Component({
   selector: 'app-root',
   standalone: true,
-  template: 'hi',
+  template: '<app-base\>',
   imports: [
     // MainComponent
   ],
+  styles:''
 })
 export default class AppComponent {
   // constructor(applicationConfigService: ApplicationConfigService, iconLibrary: FaIconLibrary, dpConfig: NgbDatepickerConfig) {

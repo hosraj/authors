@@ -7,9 +7,12 @@ import { BaseComponent } from './shared/base/base.component';
 import { AppService } from './app.service';
 
 @NgModule({
-  declarations: [ AppComponen,BaseComponent,],
+  declarations: [ AppComponent,BaseComponent,],
   imports: [
-    CommonModule,BrowserModule, FormsModule, ReactiveFormsModule ,
+    CommonModule,
+    BrowserModule,
+    FormsModule,
+    ReactiveFormsModule ,
   ],
   bootstrap :  [ AppComponent ],
   providers: [AppService]
